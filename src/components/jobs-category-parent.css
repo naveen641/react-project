@@ -1,0 +1,65 @@
+.jobs-category-parent-item {
+  height: 144px;
+  width: 288px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  display: none;
+}
+.mask-group-icon1 {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.mask-group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.finance,
+.jobs-available1 {
+  position: relative;
+  z-index: 1;
+}
+.finance {
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 84px;
+}
+.jobs-available1 {
+  font-size: var(--font-size-base);
+  line-height: 120%;
+}
+.finance-parent,
+.jobs-category-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.jobs-category-parent1 {
+  width: 288px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-17xl) var(--padding-5xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito-sans);
+}
+@media screen and (max-width: 450px) {
+  .finance {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+}

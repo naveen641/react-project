@@ -1,0 +1,174 @@
+.full-colour-1 {
+  height: 40px;
+  width: 193.9px;
+  position: relative;
+  object-fit: cover;
+}
+.login-app {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+  white-space: nowrap;
+}
+.full-colour-1-parent,
+.login-form {
+  display: flex;
+  align-items: flex-start;
+}
+.login-form {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.full-colour-1-parent {
+  width: 1224px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-nunito-sans);
+}
+.mentoraide {
+  color: var(--color-springgreen-100);
+}
+.unlock-your-potential-container {
+  margin: 0;
+  height: 220px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 109.1%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.a27aeb26-e622-4fec-9c70-e2932b-icon {
+  height: 492px;
+  width: 737px;
+  position: absolute;
+  margin: 0 !important;
+  right: -525px;
+  bottom: -375px;
+  object-fit: cover;
+  z-index: 2;
+}
+.unlock-your-potential-with-men-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.stand-out-with {
+  width: 487px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 128.6%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -8.4px;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-inner {
+  width: 194px;
+  height: 56px;
+}
+.frame-parent {
+  width: 699px;
+  padding: 0 0 337px;
+  gap: 61.9px;
+  max-width: 100%;
+}
+.frame-container,
+.frame-parent,
+.jobs-internship-mentoraide1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-container {
+  align-self: stretch;
+  padding: 0 0 var(--padding-8xl);
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.jobs-internship-mentoraide1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  padding: var(--padding-mid) 86px 319px 108px;
+  gap: 101px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 56px;
+  color: var(--white);
+  font-family: var(--font-nunito-sans);
+}
+@media screen and (max-width: 1050px){
+  .a27aeb26-e622-4fec-9c70-e2932b-icon {
+    height: 492px;
+    width: 737px;
+    position: absolute;
+    margin: 0 !important;
+    right: -525px;
+    bottom: -375px;
+    object-fit: cover;
+    z-index: 2;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .unlock-your-potential-container {
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent {
+    gap: 31px;
+    padding-bottom: 219px;
+    box-sizing: border-box;
+  }
+  .jobs-internship-mentoraide1 {
+    gap: 50px;
+    padding-left: 54px;
+    padding-right: 43px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .unlock-your-potential-container {
+    font-size: 34px;
+    line-height: 37px;
+  }
+  .frame-parent {
+    gap: var(--gap-mini);
+  }
+  .jobs-internship-mentoraide1 {
+    gap: 25px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

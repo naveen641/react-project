@@ -1,0 +1,357 @@
+.frame-child12 {
+  width: 288px;
+  height: 304px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  display: none;
+}
+.app-store-icon1 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-child13 {
+  width: 1px;
+  height: 33px;
+  position: relative;
+  border-right: 1px solid var(--white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.filter-icons-inner {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.full-time5 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 1;
+}
+.employment-type,
+.filter-icons {
+  display: flex;
+  align-items: flex-start;
+}
+.employment-type {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.filter-icons {
+  width: 193px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--color-springgreen-100);
+}
+.email-marketing1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.category-labels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.join-our-team4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  text-align: left;
+  z-index: 1;
+}
+.job-categories {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.more-details4 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 94px;
+  z-index: 1;
+}
+.first-icon-set,
+.second-icon-set {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.second-icon-set {
+  z-index: 2;
+}
+.icon-pairs {
+  width: 6.7px;
+  height: 6.7px;
+  position: relative;
+}
+.button-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-6);
+}
+.details-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-smi-7);
+}
+.filter-options,
+.rectangle-parent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent5 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--white);
+  padding: var(--padding-11xl) var(--padding-5xl) var(--padding-11xl)
+    var(--padding-19xl);
+  gap: var(--gap-5xl);
+}
+.filter-options {
+  width: 288px;
+  gap: var(--gap-base);
+  min-width: 288px;
+}
+.filter-names-item {
+  height: 1584px;
+  width: 800px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-600);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.background-shape {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-500);
+  z-index: 1;
+}
+.bachelor {
+  font-family: var(--font-nunito-sans);
+}
+.minimum-qualification-bachelo {
+  display: block;
+}
+.mid-level {
+  font-family: var(--font-nunito-sans);
+}
+.experience-level-mid-level {
+  display: block;
+}
+.years {
+  font-family: var(--font-nunito-sans);
+}
+.experience-length-2-years {
+  display: block;
+}
+.location {
+  font-family: var(--font-nunito-sans);
+}
+.location-san-francisco-usa {
+  display: block;
+}
+.span {
+  font-family: var(--font-nunito-sans);
+}
+.application-deadline-120820 {
+  display: block;
+}
+.salary-range {
+  font-family: var(--font-nunito-sans);
+}
+.span1 {
+  font-weight: 600;
+}
+.b,
+.span1 {
+  font-family: var(--font-nunito-sans);
+}
+.salary-range-105000-150 {
+  display: block;
+}
+.blank-line1 {
+  font-weight: 300;
+}
+.blank-line,
+.job-description {
+  display: block;
+  white-space: pre-wrap;
+}
+.we-are-searching {
+  white-space: pre-wrap;
+}
+.we-are-searching-for-a-laravel {
+  display: block;
+}
+.blank-line3 {
+  white-space: pre-wrap;
+}
+.blank-line2,
+.laravel-developer-requirements {
+  display: block;
+  white-space: pre-wrap;
+}
+.a-degree-in-programming-compu1,
+.a-solid-understanding-of-appli,
+.experience-working-with-php-p,
+.great-communication-skills,
+.knowledge-of-database-design-a,
+.practical-experience-using-the,
+.problem-solving-skills-and-cri,
+.proficiency-in-html-and-javasc,
+.the-ability-to-work-on-lamp-de,
+.the-desire-and-ability-to-lear {
+  margin-bottom: 0;
+  white-space: pre-wrap;
+}
+.a-degree-in-programming-compu {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.blank-line4,
+.responsibilities {
+  display: block;
+  white-space: pre-wrap;
+}
+.designing-and-building-web-app,
+.discussing-project-aims-with-t1,
+.ensuring-that-integrations-run,
+.maintaining-web-based-applicat,
+.recording-and-reporting-on-wor,
+.scaling-projects-based-on-clie,
+.testing-functionality-for-user,
+.troubleshooting-issues-in-the,
+.working-with-front-end-and-bac {
+  margin-bottom: 0;
+  white-space: pre-wrap;
+}
+.presenting-work-in-meetings-wi {
+  white-space: pre-wrap;
+}
+.discussing-project-aims-with-t {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.minimum-qualification-bachelo-container {
+  margin: 0;
+  height: 1512px;
+  width: 757px;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.filter-names1,
+.job-filters {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.filter-names1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-600);
+  padding: var(--padding-7xl) var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 525px;
+  font-size: var(--font-size-xl);
+}
+.job-filters {
+  width: 1175px;
+  gap: var(--gap-60xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-nunito-sans);
+}
+@media screen and (max-width: 1225px) {
+  .filter-names1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .job-filters {
+    gap: var(--gap-20xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .filter-options {
+    flex: 1;
+  }
+  .job-filters {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .filter-names1 {
+    min-width: 100%;
+  }
+  .job-filters {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .email-marketing1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .minimum-qualification-bachelo-container {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+}

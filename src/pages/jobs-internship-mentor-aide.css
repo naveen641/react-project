@@ -1,0 +1,114 @@
+.features1 {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 109.1%;
+  font-weight: 700;
+}
+.features-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.frame-child,
+.frame-item {
+  align-self: stretch;
+  position: relative;
+}
+.frame-child {
+  height: 2734px;
+  background-color: var(--white);
+  display: none;
+}
+.frame-item {
+  flex: 1;
+  background-color: var(--color-springgreen-200);
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent,
+.rectangle-wrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-wrapper {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.rectangle-parent {
+  background-color: var(--white);
+  padding: 0 0 771px;
+  gap: 600px;
+}
+.features,
+.jobs-internship-mentoraide,
+.rectangle-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.features {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+  font-family: var(--font-nunito-sans);
+}
+.jobs-internship-mentoraide {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  padding: 41px 0 0;
+  box-sizing: border-box;
+  gap: 214px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent {
+    padding-bottom: 326px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .features1 {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent {
+    gap: 300px;
+    padding-bottom: 212px;
+    box-sizing: border-box;
+  }
+  .features {
+    gap: var(--gap-xl);
+  }
+  .jobs-internship-mentoraide {
+    gap: 107px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .features1 {
+    font-size: var(--font-size-10xl);
+    line-height: 31px;
+  }
+  .rectangle-parent {
+    gap: 150px;
+  }
+  .jobs-internship-mentoraide {
+    gap: 53px;
+  }
+}

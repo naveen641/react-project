@@ -1,0 +1,163 @@
+.listing-actions-child {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 48px;
+  font-family: var(--label-01);
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-300);
+}
+.listing-actions {
+  width: 392px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.filter-names-child {
+  height: 81px;
+  width: 800px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-600);
+  display: none;
+  max-width: 100%;
+}
+.telegram-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.full-time4 {
+  font-size: var(--font-size-xs);
+}
+.phpjs-developer-full-container {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  z-index: 1;
+}
+.job-info,
+.job-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.job-title {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 186px;
+}
+.job-info {
+  width: 345px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.frame-child10 {
+  height: 48px;
+  width: 130px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  display: none;
+}
+.view-company {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-nunito-sans);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 110px;
+  z-index: 1;
+}
+.group-button {
+  cursor: pointer;
+  border: 1px solid var(--color-darkgray);
+  padding: var(--padding-smi) var(--padding-3xs);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.group-button:hover {
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.frame-child11 {
+  height: 48px;
+  flex: 1;
+  z-index: 1;
+}
+.frame-parent6 {
+  width: 284px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.filter-names {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-600);
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-3xs) var(--padding-mid)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  min-width: 520px;
+  gap: var(--gap-xl);
+}
+.filter-names,
+.listing-details,
+.product-description {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.product-description {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.listing-details {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--label-01);
+}
+@media screen and (max-width: 750px) {
+  .filter-names {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .job-info {
+    flex-wrap: wrap;
+  }
+}
