@@ -1,0 +1,20 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+
+# Denote all the text files
+*.css text
+*.html text
+*.js text
+*.jsx text
+*.json text
+*.md text
+*.ts text
+*.tsx text
+*.yml text
+*.yaml text
